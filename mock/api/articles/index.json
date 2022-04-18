@@ -1,0 +1,119 @@
+{
+    "total_rows": 74,
+    "offset": 0,
+    "rows": [
+        {
+            "id": "5b5fb489af76b1a1ddf3e8d4a00008e4",
+            "key": "2014-12-31T14:12:38+01:00",
+            "value": {
+                "_id": "5b5fb489af76b1a1ddf3e8d4a00008e4",
+                "_rev": "1-cef20937521677b205730f56362c2470",
+                "type": "blogpost",
+                "author": "Mikael Lofjärd",
+                "dateTime": "2014-12-31T14:12:38+01:00",
+                "htmlContent": "It has been a bad year for my blog. Early on I started working on a new blogging platform that would also support a number of other content types to better reflect my life.  \nI wanted to host my own data from my running and mountain biking activities and I wanted to review at least a part of all the tech and sporting equipment I've bought over the year.\n\nNone of this came to pass...\n\n...and I'm quite ashamed...\n\n...and consider it a personal failure.\n\nThe new platform is still under construction and I'm thinking of breaking it into parts and doing a partial release as soon as possible, though that might still be closer to the end of Q1 2015.\n\nNew hardware for my office has been ordered a few days ago and I hope I will get some time to do some serious bare knuckle programming done as soon as I get home (I'm currently celebrating Christmas and the new year in the Swedish mountains).\n\nTo all you readers who persist in checking in on this blog: Thank you, and a happy new year!",
+                "pictureAltText": null,
+                "pictureSubText": null,
+                "pictureURL": null,
+                "published": true,
+                "readableKey": "2014-in-review",
+                "title": "2014 In Review",
+                "tags": [
+                    "blog",
+                    "rant",
+                    "shame"
+                ]
+            }
+        },
+        {
+            "id": "d18a5f6dd584ceac27ad19b137031c1e",
+            "key": "2014-05-23T22:58:09+02:00",
+            "value": {
+                "_id": "d18a5f6dd584ceac27ad19b137031c1e",
+                "_rev": "1-61b89c41990526122d10cc60300ea7f7",
+                "type": "blogpost",
+                "author": "Mikael Lofjärd",
+                "dateTime": "2014-05-23T22:58:09+02:00",
+                "htmlContent": "And with summer, my almost year long blog hiatus ends.\n\nJuly 31st 2013 was the day my second daughter was born. Besides installing some long forgotten parts in the server machine, little has happened since then. Well, little has happened with regards to the blog, that is.\n\nSeptember 25th marked my 31st birthday and the scale tipped at 90 kilograms. I strapped on my running shoes and started running. Once a week. Then twice a week. For a while I ran three times a week. I also cut all my intake of carbohydrates, except for one beer each weekend, and about two weeks after Christmas the blinking digits underneath my feet presented themselves as 75 kilograms.  \nI've kept on running ever since.\n\nThen the year 2014 happened and boy did it happen fast. It's already May and I've yet to write a single blog post (well except for this one). I have, however, started up a few new projects, both by myself and some with friends. One of them will result in a new design for this blog and its subsequent merge into a larger site presenting more aspects of my life.  \nMore information about that will follow, I promise!",
+                "pictureAltText": null,
+                "pictureSubText": null,
+                "pictureURL": null,
+                "published": true,
+                "readableKey": "summer-is-coming",
+                "title": "Summer is Coming",
+                "tags": [
+                    "blog",
+                    " misc",
+                    " life"
+                ]
+            }
+        },
+        {
+            "id": "71659bd57e7bcddf51bf44ad8d0003c0",
+            "key": "2013-08-18T12:42:14+02:00",
+            "value": {
+                "_id": "71659bd57e7bcddf51bf44ad8d0003c0",
+                "_rev": "2-c138f3a420d71758b7969a1348774183",
+                "type": "blogpost",
+                "author": "Mikael Lofjärd",
+                "dateTime": "2013-08-18T12:42:14+02:00",
+                "htmlContent": "My server mostly keeps to itself, chugging along in my apartment storage space, but sometimes I order new parts for it. One such part was the picoPSU I bought several months ago to replace my totally overkill 650W PSU.\n\nEssentially, I wanted to replace this:\n\n![Really big PSU](/img/upload/36848b40-cda9-4d89-b43b-7bc008126874.jpg)\n\nwith this:\n\n![Really tiny PSU](/img/upload/80e008fd-c6cf-4dc2-a8be-dc9bb1eea0ac.jpg)\n\nThe Corsair TX-650 has worked without a hitch, but my server is an Atom D525 with a TDP of 12W and its only other hardware is an SSD. It seems like there would be some serious loss of power due to PSU inefficiencies on such small loads.\n\nThe picoPSU on the other hand is a DC-DC PSU with an external brick rated for 120W loads, and it has proven much more efficient on smaller loads in test around the interwebs.\n\nWhen I finally took the time to switch to the picoPSU, I also got rid of one of the large fans humming along inside the server case. The expected silence was however interrupted  by the screeching sound emanating from the Lian-Li case fan installed in my server case. Since this was now the only fan in the case (and the motherboard chipset was getting a bit hot for my taste without any fan at all) I decided to replace it with something a bit quieter.\n\nThe choice fell on this:\n\n![REALLY quiet fan](/img/upload/64e9a94b-ec1b-47f4-a613-625387ed095d.jpg)\n\nThis is the Noctua NF-A14 ULN (Ultra Low Noise) 140mm. In the configuration I chose it runs at 650 RPM and it is barely audible from a distance of about one inch. Move another inch or two away from the fan and you need to have a seriously quiet room if you're going to hear anything from this fan.  \nMore than once I had too look at the fan to make sure that it was really spinning.\n\nThe next time I'm upgrading my server I'm going to purchase some kind of power meter to see how many watts my little machine is operating on but for now I'm just happy that it's operating a little (a lot) quieter.",
+                "pictureAltText": null,
+                "pictureSubText": null,
+                "pictureURL": null,
+                "published": true,
+                "readableKey": "server-maintenance-of-2013",
+                "title": "Server Maintenance of 2013",
+                "tags": [
+                    "misc",
+                    "hardware",
+                    "server"
+                ]
+            }
+        },
+        {
+            "id": "adf229f85eb04201c35e3f7e12000772",
+            "key": "2013-06-22T14:40:53+02:00",
+            "value": {
+                "_id": "adf229f85eb04201c35e3f7e12000772",
+                "_rev": "4-8ac646c1c7bf63daece38f9c8b2c5e4a",
+                "type": "blogpost",
+                "author": "Mikael Lofjärd",
+                "dateTime": "2013-06-22T14:40:53+02:00",
+                "htmlContent": "Here's my latest project:\n\n![Sanded down keys](/img/upload/61f7f626-f25f-42f0-9bd5-d9cf30e66abb.jpg)\n\nIt's taking me a lot longer to sand down all the keys with 180 grit sand paper than I originally planned, but a few more hours and I'll be ready for paint.\n\nHaving kids though, I might not be able to complete it until next weekend. :)\n\nOh and yes; that's a Logitech Wave I'm modifying...",
+                "pictureAltText": null,
+                "pictureSubText": null,
+                "pictureURL": null,
+                "published": true,
+                "readableKey": "midsummer-grind",
+                "title": "Midsummer Grind",
+                "tags": [
+                    "misc",
+                    "hardware"
+                ]
+            }
+        },
+        {
+            "id": "aeb3d0ac76bd7389d8893e8c52000863",
+            "key": "2013-05-31T17:30:02+02:00",
+            "value": {
+                "_id": "aeb3d0ac76bd7389d8893e8c52000863",
+                "_rev": "1-c92e4609b6109871701e96800fc654f2",
+                "type": "blogpost",
+                "author": "Mikael Lofjärd",
+                "dateTime": "2013-05-31T17:30:02+02:00",
+                "htmlContent": "The blog has been silent lately but i certainly have not been sitting still. About a month ago I started to remake the administration area of the blog into something a bit more fashionable (today it consists of a few input boxes and a \"publish\" button). Halfway through I decided to rewrite it using AngularJS. Needles to say, I'm not quite done with it yet but it's a work in progress and it's going to be awesome.\n\nMy great friend and fellow coder Mattias spent a long weekend here and we put together a little P2P file sharing site using Node.js, AngularJS and Web RTC data channels. It's really cool but like most things, it needs a little more work. It's [up on GitHub though](https://github.com/mlofjard/WebDrop) if anyone wants to take a peek at it.\n\nThe day before yesterday I beefed up security on my server and it's been quite interesting seeing who gets banned from trying to log in to every account known to man through SSH.\n\n__Spoiler alert!__ It's Chinese authorities. =)\n\nI might do a blog post about it someday in the near (or far) future.\n\nIn other news; my wife gets more and more pregnant every day, the weather is awesome most days so I really should get a move on with my robot, and I'm really hung-over today from attending a company event last night. We played Segway-polo. It was awesome! =)",
+                "pictureAltText": null,
+                "pictureSubText": null,
+                "pictureURL": null,
+                "published": true,
+                "readableKey": "the-end-of-may",
+                "title": "The End of May",
+                "tags": [
+                    "misc",
+                    "blog"
+                ]
+            }
+        }
+    ]
+}
