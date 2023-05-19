@@ -21,7 +21,7 @@
             <li class="archive"><a href="/archive" use:link>Archive</a></li>
             <li class="about"><a href="/about" use:link>About</a></li>
         </ul>
-        <div class="copy">&#169; 2022 Mikael Lofj&auml;rd</div>
+        <div class="copy"><a href="/admin/" use:link>&#169; 2022 Mikael Lofj&auml;rd</a></div>
     </footer>
 </div>
 
@@ -164,13 +164,14 @@
       align-items: center;
       justify-content: space-between;
   
-      .copy {
+      .copy > a {
         color: $color-white;
         font-size: .6rem;
         font-weight: 600;
         line-height: .6rem;
         text-transform: uppercase;
         padding-right: 1.2rem;
+        text-decoration: none;
       }
   
       > ul {
