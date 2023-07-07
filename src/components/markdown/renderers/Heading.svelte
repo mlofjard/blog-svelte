@@ -36,15 +36,15 @@
     font-weight: 600;
   }
 
-  h1 {
-    font-size: 1.6rem;
-    margin-bottom: 0.8rem;
+  // h1 {
+  //   font-size: 1.6rem;
+  //   margin-bottom: 0.8rem;
 
-    &::first-letter {
-      color: #000000;
-      font-size: 2.4rem;
-    }
-  }
+  //   &::first-letter {
+  //     color: #000000;
+  //     font-size: 2.4rem;
+  //   }
+  // }
 
   h2,h3,h4,h5,h6 {
     margin-bottom: .4rem;
@@ -55,39 +55,41 @@
   }
 
   h2,h3,h4 {
-    font-size: 1.2rem;
+    font-size: 2.4rem;
+    font-family: 'Oswald', 'Open Sans', sans-serif;
+    font-weight: 400;
   }
 
-  h1.code,
-  h2.code,
-  h3.code,
-  h4.code,
-  h5.code,
-  h6.code {
-    &::first-letter {
-      color: $color-blue;
-    }
-  }
+  // h1.code,
+  // h2.code,
+  // h3.code,
+  // h4.code,
+  // h5.code,
+  // h6.code {
+  //   &::first-letter {
+  //     color: $color-blue;
+  //   }
+  // }
 
-  h1.life,
-  h2.life,
-  h3.life,
-  h4.life,
-  h5.life,
-  h6.life {
-    &::first-letter {
-      color: $color-yellow;
-    }
-  }
+  // h1.life,
+  // h2.life,
+  // h3.life,
+  // h4.life,
+  // h5.life,
+  // h6.life {
+  //   &::first-letter {
+  //     color: $color-yellow;
+  //   }
+  // }
 
-  h1.fun,
-  h2.fun,
-  h3.fun,
-  h4.fun,
-  h5.fun,
-  h6.fun {
-    &::first-letter {
-      color: $color-red;
-    }
-  }
+  // h1.fun,
+  // h2.fun,
+  // h3.fun,
+  // h4.fun,
+  // h5.fun,
+  // h6.fun {
+  //   &::first-letter {
+  //     color: $color-red;
+  //   }
+  // }
 </style>

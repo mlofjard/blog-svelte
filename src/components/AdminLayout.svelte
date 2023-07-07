@@ -25,13 +25,6 @@
 <style lang="scss">
     @import "../styles/variables.scss";
   
-    :global(body) {
-      background-color: $color-white;
-      font-family: "Open Sans", sans-serif;
-      font-weight: 300;
-      font-size: 1rem;
-    }
-  
     .container {
       display: flex;
       flex-direction: column;

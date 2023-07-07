@@ -36,12 +36,13 @@
 
 <style lang="scss">
     .container {
-        max-width: 80rem;
+        max-width: 120rem;
         min-width: 200px;
-        display: grid;
-        grid-template-columns: auto;
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
         padding: 0;
         gap: 4rem;
+        container-type: inline-size;
     }
 </style>

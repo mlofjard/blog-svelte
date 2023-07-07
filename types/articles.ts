@@ -11,8 +11,8 @@ interface List<T> {
 }
 
 export interface ArticleDoc {
-    _id: string,
-    _rev: string,
+    _id?: string,
+    _rev?: string,
     type: string,
     author: string,
     dateTime: string,

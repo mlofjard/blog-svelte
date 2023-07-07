@@ -1,5 +1,5 @@
 :root {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 html,
@@ -83,12 +83,11 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font: inherit;
+   vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -103,82 +102,106 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+   display: block;
 }
 
-body {
-    line-height: 1;
+html, body {
+   font-size: 10px;
+   line-height: 1;
+   -webkit-text-size-adjust: none;
+   text-size-adjust: none;
 }
 
 ol,
 ul {
-    list-style: none;
+   list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+   quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+   content: "";
+   content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+   border-collapse: collapse;
+   border-spacing: 0;
 }
 
 @font-face {
-    font-family: 'Elusive-Icons';
-    src: url('/fonts/Elusive-Icons.woff') format('woff');
-    font-weight: normal;
-    font-style: normal
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-stretch: 100%;
+   font-display: swap;
+   src: url("/fonts/OpenSans-400.woff2") format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+
+ @font-face {
+   font-family: 'Open Sans';
+   font-style: italic;
+   font-weight: 400;
+   font-stretch: 100%;
+   font-display: swap;
+   src: url("/fonts/OpenSans-400italic.woff2") format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+
+@font-face {
+   font-family: "Open Sans";
+   src: url("/fonts/OpenSans-600.woff") format("woff");
+   font-weight: 600;
+   font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-300.woff') format('woff');
-    font-weight: 300;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-600.woff') format('woff');
+    font-style: italic;
     font-weight: 600;
-    font-style: normal
+    font-stretch: 100%;
+    font-display: swap;
+    src: url('fonts/OpenSans-600italic.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+   font-family: 'Fira Code';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url('fonts/FiraCode-400.woff2') format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+
+ @font-face {
+   font-family: 'Fira Code';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: url('fonts/FiraCode-700.woff2') format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+
+@font-face {
+   font-family: "Material Symbols Rounded";
+   font-style: normal;
+   src: url("fonts/MaterialSymbolsRounded.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-300italic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic
+   font-family: "Oswald";
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url("fonts/Oswald-400.woff2") format("woff2");
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122,
+      U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
-@font-face {
-    font-family: 'Inconsolata';
-    src: url('/fonts/Inconsolata-400.woff') format('woff');
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Inconsolata';
-    src: url('/fonts/Inconsolata-700.woff') format('woff');
-    font-weight: 700;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Racing Sans One';
-    src: url('/fonts/RacingSansOne-400.woff') format('woff');
-    font-weight: 400;
-    font-style: normal
-}
-

@@ -2,7 +2,7 @@
 
 <style lang="scss">
     p {
-        margin-bottom: .8rem;
+        margin-bottom: 1.4rem;
     }
 
     p:last-of-type {

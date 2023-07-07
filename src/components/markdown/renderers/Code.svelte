@@ -6,6 +6,7 @@
   import bash from "svelte-highlight/languages/bash";
  // import typescript from "svelte-highlight/languages/typescript";
   import atomOneDark from "svelte-highlight/styles/atom-one-dark";
+   import { greenScreen } from "svelte-highlight/styles";
 
   export let lang: string;
   export let text: string;
@@ -28,14 +29,20 @@
 
 <svelte:head>
   {@html atomOneDark}
+  <style>
+    .hljs {
+      background: rgba(255,255,255,.04);
+    }
+  </style>
 </svelte:head>
 
 <Highlight {language} code={text} />
 
 <style lang="scss">
   :global(pre) {
-    font-family: "Inconsolata", monospace;
+    font-family: "Fira Code", monospace;
     margin-bottom: 1.6rem;
     white-space: pre-wrap;
+    word-break: break-all;
   }
 </style>

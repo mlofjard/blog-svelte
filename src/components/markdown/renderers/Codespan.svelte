@@ -8,9 +8,7 @@
   @import "../../../styles/variables.scss";
 
   code {
-    background-color: $color-light-gray;
-    border: 1px solid $color-gray;
-    font-family: "Inconsolata", monospace;
-    padding: 0 .2rem;
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
   }
 </style>

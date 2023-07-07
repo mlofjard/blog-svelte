@@ -8,26 +8,26 @@
 <li class={styles}><slot /></li>
 
 <style lang="scss">
-    @import "../../../styles/variables.scss";
+    @use "../../../styles/variables.scss" as *;
 
     li.unordered {
         &::before {
             content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-            color: red; /* Change the color */
+            color: $color-accent; /* Change the color */
             font-weight: bold; /* If you want it to be bold */
             display: inline-block; /* Needed to add space between the bullet and the text */
             width: 1em; /* Also needed for space (tweak if needed) */
             margin-left: -1em; /* Also needed for space (tweak if needed) */
 
         }
-        &.code::before {
-            color: $color-blue;
-        }
-        &.life::before {
-            color: $color-yellow;
-        }
-        &.fun::before {
-            color: $color-red;
-        }
+        // &.code::before {
+        //     color: $color-blue;
+        // }
+        // &.life::before {
+        //     color: $color-yellow;
+        // }
+        // &.fun::before {
+        //     color: $color-red;
+        // }
     }
 </style>
